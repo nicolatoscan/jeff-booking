@@ -1,0 +1,18 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:913215969739:function:7505bf56-18ed-4a8f-8119-fb5a1f2eeb54:Release_0"
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "ontopic2"
+        }
+      }
+    }
+  }
+}
