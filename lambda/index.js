@@ -115,7 +115,7 @@ const FindAnHotelIntentHandler = {
     async handle(handlerInput) {
 
         let hotelName = await services.getAnHotel(handlerInput.requestEnvelope.request.intent.slots);
-        let speakOutput = ["Cool choose, what about a nice classic like ", "Cool, I've never been there, will you take me to "][Math.floor(Math.random() * 2)]
+        let speakOutput = ["Cool choice, I'm thinking about a nice classic like ", "Cool, I've never been there, but what about "][Math.floor(Math.random() * 2)]
         speakOutput += hotelName
         speakOutput += ", Do you like it?"
         
